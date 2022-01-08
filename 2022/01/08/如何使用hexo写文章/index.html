@@ -19,12 +19,12 @@
   <meta name="description" content="如何使用hexo写文章0、前言我们已经使用hexo搭建好了平台，需要我们去一点一点让它丰富起来 1、创建文章首先我们需要先创建一个md文件，使用下面命令来生成一个md文件 1hexo new &quot;标题&quot; 这个就是我们的文章模板，我们就在这里写文章，这也是我们的文章存档 2、清理缓存在每一次编译部署之前最好都clean一下我们可以使用 1hexo clean 来清理静态缓存文件，保">
 <meta property="og:type" content="article">
 <meta property="og:title" content="如何使用hexo写文章">
-<meta property="og:url" content="http://example.com/2022/01/08/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hexo%E5%86%99%E6%96%87%E7%AB%A0/index.html">
+<meta property="og:url" content="http://songizhu.tk/2022/01/08/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hexo%E5%86%99%E6%96%87%E7%AB%A0/index.html">
 <meta property="og:site_name" content="Jerome&#39;s Blog">
 <meta property="og:description" content="如何使用hexo写文章0、前言我们已经使用hexo搭建好了平台，需要我们去一点一点让它丰富起来 1、创建文章首先我们需要先创建一个md文件，使用下面命令来生成一个md文件 1hexo new &quot;标题&quot; 这个就是我们的文章模板，我们就在这里写文章，这也是我们的文章存档 2、清理缓存在每一次编译部署之前最好都clean一下我们可以使用 1hexo clean 来清理静态缓存文件，保">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-01-08T15:19:49.000Z">
-<meta property="article:modified_time" content="2022-01-08T16:11:06.859Z">
+<meta property="article:modified_time" content="2022-01-08T16:24:06.176Z">
 <meta property="article:author" content="Jerome">
 <meta property="article:tag" content="教程">
 <meta name="twitter:card" content="summary_large_image">
@@ -66,7 +66,7 @@
 
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
-    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.12","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname"}},"search_path":"/local-search.xml"};
+    var CONFIG = {"hostname":"songizhu.tk","root":"/","version":"1.8.12","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname"}},"search_path":"/local-search.xml"};
   </script>
   <script  src="/js/utils.js" ></script>
   <script  src="/js/color-schema.js" ></script>
@@ -201,7 +201,7 @@
   
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      414 字
+      413 字
     </span>
   
 
@@ -257,7 +257,7 @@
 <h2 id="2、清理缓存"><a href="#2、清理缓存" class="headerlink" title="2、清理缓存"></a>2、清理缓存</h2><p>在每一次编译部署之前最好都clean一下<br>我们可以使用</p>
 <figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ebnf"><span class="hljs-attribute">hexo clean</span><br></code></pre></td></tr></table></figure>
 <p>来清理静态缓存文件，保证文件都是最新更改的</p>
-<h2 id="3、生成静态文件"><a href="#3、生成静态文件" class="headerlink" title="3、生成静态文件"></a>3、生成静态文件</h2><p>使用下面命令来生成静态文件，g -&gt; generator</p>
+<h2 id="3、生成静态文件"><a href="#3、生成静态文件" class="headerlink" title="3、生成静态文件"></a>3、生成静态文件</h2><p>使用下面命令来生成静态文件，g -&gt; generate</p>
 <figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ebnf"><span class="hljs-attribute">hexo g</span><br></code></pre></td></tr></table></figure>
 <p>我们在上面md文件里写的文章是不能被浏览器解析的，所以需要转换成html页面</p>
 <h2 id="4、提交部署"><a href="#4、提交部署" class="headerlink" title="4、提交部署"></a>4、提交部署</h2><p>文章编译好了之后就需要提交到github上去，d -&gt; deploy</p>
