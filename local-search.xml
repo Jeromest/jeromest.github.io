@@ -61,25 +61,6 @@
   
   
   <entry>
-    <title>FristBlog</title>
-    <link href="/2021/10/24/FristBlog/"/>
-    <url>/2021/10/24/FristBlog/</url>
-    
-    <content type="html"><![CDATA[<h1 id="你好，这是我的第一篇博客！"><a href="#你好，这是我的第一篇博客！" class="headerlink" title="你好，这是我的第一篇博客！"></a>你好，这是我的第一篇博客！</h1><p>这篇博客是使用Hexo搭建在Github Page上的，使用Markdown编写。以后我将在此记录和分享我学习过程中的一些东西！</p>]]></content>
-    
-    
-    
-    <tags>
-      
-      <tag>FristBlog</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>Hello World</title>
     <link href="/2021/10/24/hello-world/"/>
     <url>/2021/10/24/hello-world/</url>
