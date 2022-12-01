@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>搭建hexo博客</title>
+    <link href="/2022/12/01/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2/"/>
+    <url>/2022/12/01/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2/</url>
+    
+    <content type="html"><![CDATA[<h3 id="1、新建仓库"><a href="#1、新建仓库" class="headerlink" title="1、新建仓库"></a>1、新建仓库</h3><p>首先在 github 新建一个仓库用来存放我们的博客文件，由于要使用 Github Page 功能，所以仓库名称要写成<code>用户名.github.io</code>的形式。</p><h3 id="2、配置环境"><a href="#2、配置环境" class="headerlink" title="2、配置环境"></a>2、配置环境</h3><p>工欲善其事必先利其器，首先要安装nodejs，hexo依赖于这个运行，其次是git，用于管理版本和向远程仓库推送代码，怎么安装自己百度。安装完成要进行测试，在命令行输入<code>node --version</code>和<code>git --version</code>如果有版本信息就行了。</p><h3 id="3、下载脚本"><a href="#3、下载脚本" class="headerlink" title="3、下载脚本"></a>3、下载脚本</h3><p>可以使用脚本来快速部署博客，脚本自己在github找。</p><h3 id="4、生成ssh秘钥"><a href="#4、生成ssh秘钥" class="headerlink" title="4、生成ssh秘钥"></a>4、生成ssh秘钥</h3><p>由于我们最终需要把博客部署到github上面，那我们平时更新博客就要手动提交推送，甚至有时候还要登陆账号，很麻烦，这时候就需要一个快速提交代码的办法，生成ssh，ssh是一个凭证，储存在C盘用户目录下，每次提交的时候github就知道这台电脑是可信任的，不用登陆就可以提交代码。</p><h3 id="5、部署"><a href="#5、部署" class="headerlink" title="5、部署"></a>5、部署</h3><p>到这里博客应该可以在本地预览了，但是现在只能你自己看，想让别人看到就要把博客部署到github，配置博客目录下的_config.yml文件，拉到最下面，填写仓库地址和分支名称，注意，这里分支名称不能是master，要写main，不然hexo会自动在远程仓库新建一个分支，这样是不行滴。最后运行<code>./up.sh</code>生成静态博客内容并推送到远程仓库。</p><h3 id="6、搞定"><a href="#6、搞定" class="headerlink" title="6、搞定"></a>6、搞定</h3><p>推送完成后去github查看是否成功，稍等几分钟等github解析，然后在地址栏输入<code>用户名.github.io</code>就可以查看博客。</p><h3 id="备注"><a href="#备注" class="headerlink" title="备注"></a>备注</h3><p>其实，去看hexo官网更好，文档清晰，简单快捷。<br>官网：<a href="https://hexo.io/zh-cn/">Hexo</a></p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>教程</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>如何使用hexo写文章</title>
     <link href="/2022/01/08/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hexo%E5%86%99%E6%96%87%E7%AB%A0/"/>
     <url>/2022/01/08/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hexo%E5%86%99%E6%96%87%E7%AB%A0/</url>
